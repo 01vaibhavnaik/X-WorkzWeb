@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        body {
+            margin-top: 0;
+        }
+
+        .navBar {
+
+            display: flex;
+
+
+        }
+
+        img {
+            height: 8vh;
+            width: 8vh;
+        }
+
+        .YouTube {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .searchBar {
+            margin-top: 20px;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 90vh;
+            margin-left: 20vh;
+            text-align: center;
+
+        }
+
+        .searchBar input {
+            border: none;
+            outline: none;
+
+        }
+
+        .searchBar i {
+            position: relative;
+            margin-left: 60vh;
+
+        }
+
+        .navBar i {
+
+            margin-top: 10px;
+        }
+
+        .singin {
+            display: flex;
+            margin-top: 20px;
+            margin-left: 70vh;
+            gap: 10px;
+
+        }
+
+        .singin i {
+            padding-left: 10px;
+        }
+
+        .singin button {
+            align-items: center;
+            margin-top: 0;
+            border-radius: 20px;
+
+        }
+
+
+        .container {
+            display: flex;
+        }
+
+        .aside {
+            margin-left: 10vh;
+
+        }
+
+        #subscribe {
+            padding: 2px;
+        }
+
+        .aside iframe {
+
+            margin-top: 35px;
+            height: 20vh;
+            width: 30vh;
+            border-radius: 20px;
+        }
+
+        .main iframe {
+
+            margin-top: 30px;
+            margin-left: 10px;
+            height: 70vh;
+            width: 130vh;
+            border-radius: 20px;
+
+        }
+
+        .mic {
+            margin-top: 20px;
+            padding-left: 10px;
+        }
+
+        .main p {
+            margin-left: 10px;
+        }
+
+        .main button {
+            border-radius: 20px;
+            background-color: black;
+            color: white;
+
+        }
+
+        .video1 {
+            display: flex;
+
+        }
+
+        .video1 p {
+            margin-top: 6vh;
+            margin-left: 10px;
+
+        }
+
+        .video1 i {
+            margin-top: 6vh;
+            margin-left: 10px;
+        }
+
+        .ash {
+            display: flex;
+        }
+
+
+
+        .sub {
+            display: flex;
+        }
+
+        h5 {
+            position: absolute;
+            top: 84vh;
+            margin-left: 9vh;
+        }
+
+        .main {
+            position: relative;
+        }
+
+        .share {
+            margin-top: 30px;
+            margin-left: 50vh;
+
+        }
+
+        .actions-right {
+
+            color: #68737e;
+        }
+
+        .TopButton {
+            display: flex;
+            gap: 10px;
+
+        }
+
+        .TopButton button {
+            border-radius: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+
+
+        }
+
+        .sub {
+            position: relative;
+        }
+
+        .sub span {
+            position: absolute;
+            margin-top: 2vh;
+            margin-left: 20vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="navBar">
+            <div class="YouTube"><i class="fa-solid fa-bars"></i>
+                <img src="/Task6/image.png">
+            </div>
+            <div class="searchBar">
+                <input type="text" placeholder="Search">
+                <i class='fa fa-search'></i>
+
+            </div>
+            <div class="mic"><i class="fa-solid fa-microphone"></i></div>
+            <div class="singin">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-sharp fa-solid fa-circle-user"> </i>
+                <button>SignIn</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="main">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OZk8K21V3dQ?si=_dh0n0Q-Iq0fhWC1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p><b>Andre Russell's Explosive 80* (40) vs Mumbai Indians IPL 2019 , Kolkata (Ball By Ball)</b> </p>
+                <div class="ash">
+                    <div class="sub">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.GXs2WSLR6jqhqTL_m72kpgHaFP&pid=Api&P=0&h=180">
+                        <p>
+                        <h4 class="channelName"><b>AshStudio7</b></h4>
+                        <span class="fa-stack" style="font-size: 0.5em;">
+                            <i class="fas fa-certificate fa-stack-2x" style="color: #010101;"></i>
+                            <i class="fas fa-check fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    </p>
+
+                    <div class="share">
+                        <div class="actions-right">
+                            <button><i class="fas fa-thumbs-up"></i> 19k</button>
+                            <button><i class="fas fa-thumbs-down"></i> 10k</button>
+                            <button><i class="fas fa-share"></i> Share</button>
+                            <button><i class="fas fa-download"></i> Download</button>
+                            <button><i class="fas fa-ellipsis-h"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                <h5 class="subscriberCount">6M subscribers</h5>
+                </p>
+            <p>gjffuffyuiguiguhhohioiihiohiohih</p>
+                
+            </div>
+            <div class="aside">
+                <div class="TopButton">
+                    <button>All</button>
+                    <button>Music</button>
+
+                </div>
+                <div class="video1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/S0q9yqkeEFU?si=Z6cEStHbb_efZ97u"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p><b>RCB Vs KKR IPL 2014 11th Match Full Highlights || Banglore Vs Kolkata IPL Match
+                            ||</b><span>
+                            Related Channel <i class="fas fa-check-circle" style="color: #68737e; font-size: 12px;"></i>
+                            <br><span>1M views • 4 days ago</span>
+                        </span></p><i class="fa-solid fa-ellipsis-vertical"></i>
+
+
+                </div>
+                <div class="video1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/S0q9yqkeEFU?si=Z6cEStHbb_efZ97u"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p><b>RCB Vs KKR IPL 2014 11th Match Full Highlights || </b><span>
+                            Related Channel <i class="fas fa-check-circle" style="color: #68737e; font-size: 12px;"></i>
+                            <br><span>1M views • 4 days ago</span>
+                        </span></p><i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div class="video1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/S0q9yqkeEFU?si=Z6cEStHbb_efZ97u"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p><b>Andre Russell's Explosive 80* (40) vs Mumbai Indians IPL 2019 , Kolkata (Ball By
+                            Ball)</b><br><span>
+                            Related Channel <i class="fas fa-check-circle" style="color: #68737e; font-size: 12px;"></i>
+                            <br><span>1M views • 4 days ago</span>
+                        </span></p><i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div class="video1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/S0q9yqkeEFU?si=Z6cEStHbb_efZ97u"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p><b>Andre Russell's Explosive 80* (40) vs Mumbai Indians IPL 2019 , Kolkata (Ball By
+                            Ball)</b><span>
+                            Related Channel <i class="fas fa-check-circle" style="color: #68737e; font-size: 12px;"></i>
+                            <br><span>1M views • 4 days ago</span>
+                        </span></p><i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
